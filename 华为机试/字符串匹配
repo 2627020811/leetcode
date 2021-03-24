@@ -1,0 +1,7 @@
+str1 = str(input())
+a = str(input())
+str2 = str1.lower()
+b = a.lower()
+s = list(str2)
+cnt = s.count(b)
+print(cnt)
